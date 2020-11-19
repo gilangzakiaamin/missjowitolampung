@@ -1,0 +1,2353 @@
+@charset "utf-8";
+
+/* ---------- fieldset */
+
+fieldset {
+	border: none;	
+}
+legend {
+	display: none;
+}
+
+
+/* ---------- margin,padding */
+.mb0 {	margin-bottom: 0px !important;}
+.mb3 {	margin-bottom: 3px !important;}
+.mb5 {	margin-bottom: 5px !important;}
+.mb10 {	margin-bottom: 10px !important;}
+.mb15 {	margin-bottom: 15px !important;}
+.mb20 {	margin-bottom: 20px !important;}
+.mb25 {	margin-bottom: 25px !important;}
+.mb30 {	margin-bottom: 30px !important;}
+.mb35 {	margin-bottom: 35px !important;}
+.mb40 {	margin-bottom: 40px !important;}
+.mb45 {	margin-bottom: 45px !important;}
+.mb50 {	margin-bottom: 50px !important;}
+.mb55 {	margin-bottom: 55px !important;}
+.mb60 {	margin-bottom: 60px !important;}
+.mb70 {	margin-bottom: 70px !important;}
+.mb80 {	margin-bottom: 80px !important;}
+.mb90 {	margin-bottom: 90px !important;}
+.mb100 {margin-bottom: 100px !important;}
+
+.ml0 {	margin-left: 0px !important;}
+.ml5 {	margin-left: 5px !important;}
+.ml10 {	margin-left: 10px !important;}
+.ml20 {	margin-left: 20px !important;}
+.ml30 {	margin-left: 30px !important;}
+
+.mr0 {	margin-right: 0px !important;}
+.mr5 {	margin-right: 5px !important;}
+.mr10 {	margin-right: 10px !important;}
+.mr20 {	margin-right: 20px !important;}
+.mr30 {	margin-right: 30px !important;}
+
+.mt0 {	margin-top: 0px !important;}
+.mt3 {	margin-top: 3px !important;}
+.mt5 {	margin-top: 5px !important;}
+.mt10 {	margin-top: 10px !important;}
+.mt15 {	margin-top: 15px !important;}
+.mt20 {	margin-top: 20px !important;}
+.mt30 {	margin-top: 30px !important;}
+.mt40 {	margin-top: 40px !important;}
+
+.mt-5 { margin-top: -5px !important;}
+
+.pb0 {	padding-bottom: 0px !important;}
+.pb3 {	padding-bottom: 3px !important;}
+.pb5 {	padding-bottom: 5px !important;}
+.pb10 {	padding-bottom: 10px !important;}
+.pb20 {	padding-bottom: 20px !important;}
+.pb30 {	padding-bottom: 30px !important;}
+
+.pt0 {	padding-top: 0px !important;}
+.pt3 {	padding-top: 3px !important;}
+.pt5 {	padding-top: 5px !important;}
+.pt10 {	padding-top: 10px !important;}
+.pt15 {	padding-top: 15px !important;}
+.pt20 {	padding-top: 20px !important;}
+.pt30 {	padding-top: 30px !important;}
+
+.pl0 {	padding-left: 0px !important;}
+.pl3 {	padding-left: 3px !important;}
+.pl5 {	padding-left: 5px !important;}
+.pl10 {	padding-left: 10px !important;}
+.pl20 {	padding-left: 20px !important;}
+
+.pr0 {	padding-right: 0px !important;}
+.pr3 {	padding-right: 3px !important;}
+.pr5 {	padding-right: 5px !important;}
+.pr10 {	padding-right: 10px !important;}
+.pr20 {	padding-right: 20px !important;}
+
+.bold{font-weight:bold !important;}
+
+.Uline{ text-decoration: underline; }
+
+/* ---------- font-size */
+
+.fs12 { font-size: 1.2em;}
+.fs15 { font-size: 1.5em;}
+
+/* ---------- text-align */
+
+.alc {text-align: center !important;}
+
+
+@media screen and (max-width : 375px) {
+.home #visual {
+	width: 320px;
+	height: 127px;
+}
+}
+@media screen and (min-width : 376px) and (max-width: 640px) {
+.home #visual {
+	width: 500px;
+	height: 198px;
+}
+}
+
+
+
+@media screen and (max-width: 640px) { /* sp */
+/* --------------
+ reset
+-------------- */
+input,select,textarea {max-width:95% !important;}
+h1,h2,h3,h4 {font-size:100%;}
+
+/* --------------
+ base
+-------------- */
+html {
+	background-size: contain;
+	-webkit-text-size-adjust:none;
+}
+body {
+	font-size: 16px;
+	background-size: 50%;
+}
+.ifpc {display: none;}
+
+/* --------------
+ common
+-------------- */
+.padding5 {padding:5px;}
+
+.imgL, .imgR {
+	margin: 10px auto;
+	display: block;
+}
+
+/* ----- decoration (button, etc...) */
+.listS li {
+	width: 95%;
+	margin: 0 2% 3px;
+	padding-right: 1%;
+	box-sizing: border-box;
+}
+.listS li a {
+	padding: 10px 2%;
+}
+
+.ulImg li {
+	clear: both;
+	/* width: 48%; */
+	width: 96%;
+	padding: 5px 2%;
+}
+.ulImg li a {
+	width: 100%;
+	display: inline-block;
+}
+.ulImg li img {
+	width: 23%;
+	margin-right: 3%
+}
+.ulImg li span {
+	width: 77%;
+	height: 58px;
+	font-size: 90%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+	[lang="ar"] .ulImg li span {
+		text-align: right;
+	}
+	
+	.decimal { list-style-type: decimal; }
+	
+	
+	.free_box {
+		width: 80%;		
+	}
+	
+/* ----- button */
+/* a tag */
+.btnS {padding: 3px 15px 3px 10px;}
+.btnL {padding: 10px 15px 10px 15px;}
+
+
+
+.btnS b, .btnL b {
+	padding-right: 15px;
+}
+
+.btnS b {
+	background-size: 6px auto;
+}
+
+/* input */
+.btnS[type="submit"], .btnL[type="submit"] {
+	background-size: 6px auto;
+}
+
+/* ----- base width */
+#header, .main, .in {
+	width: 100%;
+}
+/*@media only screen and (orientation : landscape) { 横向きの際に適用
+#header, .main, .in {
+	width: 500px;
+	margin: 0 auto;
+}
+}*/
+
+
+
+
+/* ---------- width */
+.spwd5 {width: 5% !important;}
+.spwd10 {width: 10% !important;}
+.spwd15 {width: 15% !important;}
+.spwd20 {width: 20% !important;}
+.spwd25 {width: 25% !important;}
+.spwd30 {width: 30% !important;}
+.spwd35 {width: 35% !important;}
+.spwd40 {width: 40% !important;}
+.spwd45 {width: 45% !important;}
+.spwd50 {width: 50% !important;}
+.spwd55 {width: 55% !important;}
+.spwd60 {width: 60% !important;}
+.spwd65 {width: 65% !important;}
+.spwd70 {width: 70% !important;}
+.spwd75 {width: 75% !important;}
+.spwd80 {width: 80% !important;}
+.spwd85 {width: 85% !important;}
+.spwd90 {width: 90% !important;}
+.spwd95 {width: 95% !important;}
+.spwd100 {width: 100% !important;}
+
+
+.spfll { float: left; }
+.spflr { float: right; }
+
+
+/* --------------
+ style
+-------------- */
+
+/* =header
+-------------------------------------------------------------- **/
+#header {
+	margin-bottom: 35px;
+	padding-bottom: 6px;
+	position: relative;
+}
+
+/* =siteHeader
+---------------------------------------------------- */
+#siteHeader h1 a {
+	/* height: 28px; */
+	margin: 5px 2px;
+	padding-top: 23px;
+	/* padding-left: 75px; */
+	font-size: 85%;
+	font-weight: normal;
+}
+
+#siteHeader h1 img {
+	max-width: 300px;
+}
+	
+	#siteHeader h1 a {
+	background: url(../img/logo.png?0113) no-repeat;
+	display: block;
+	color: #000;
+	background-size: auto 22px;
+}
+	
+#siteHeader h1#logo_jp a {
+	background: url(../img/logo_jp.png) no-repeat;
+	background-size: auto 22px;
+}
+
+/* ---------- login box */
+#divLang {
+	border: 2px solid #ad0000;
+	left: 3.5%;
+}
+
+#divLang span {
+	float: left;
+	width: 48%;
+}
+#divLang span:nth-of-type(even) {
+	margin-left: 4%;
+}
+
+#divLang a {
+	padding: 5px 0;
+	font-size: 12px;
+	display: block;
+}
+	
+		/* ----------column toggle */
+.clmToggle {
+	z-index: 600;
+	display: none;
+	width: 136px;
+	padding: 7px 5px;
+	
+	border-radius: 5px;
+	box-shadow: 0 0 3px #333;
+
+	position: absolute;
+	top: 36px;
+	left: 0;
+}
+	
+	/* ----------button toggle */
+.btnToggle {
+	width: 150px;
+	padding: 8px 0;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 5px;
+	background: url(../img/arwBtm.png) no-repeat 10px center #ae392a;
+	background-size: 6px auto;
+}	
+	
+	
+	/* ----------tokusyu */
+	
+	.tokusyu_btn {
+		position: relative;
+		padding: 4px 0;
+		color: #ae392a;
+		font-size: 12px;
+		border-radius: 5px;
+		background: url(../img/arwBtm.png) no-repeat 10px center #fff;
+		width: 30%;
+		margin-left: 5px;
+		border: #ae392a solid 2px;
+	}
+	
+	.tokusyu_btn label { 
+		display: block;
+	}
+	
+	.tokusyu_btn > label { 
+		text-align: center;
+	}
+		
+	.tokusyu_btn ul {
+		margin: 0px;
+		padding: 0px;
+		display: none;
+		position: absolute;
+		color: #ae392a;
+		font-size: 12px;
+		border-radius: 5px;
+		background:#fff;
+		width: 150%;
+		border: #ae392a solid 2px;
+		top: 30px;
+		left: -2px;
+		text-align: start;
+	}
+	[lang="ar"] .tokusyu_btn ul> * {
+		text-align: right!important;
+	}
+	
+	[lang="ar"] header {
+    direction: initial;
+}
+		
+	.tokusyu_btn input {
+    display: none;
+}
+	.tokusyu_btn input:checked ~ ul {
+		display: block;
+	}
+	
+	.tokusyu_btn li {
+		font-size: 12px;
+		margin: 3px;
+	}
+	
+	.tokusyu_btn a:hover {
+		color: #ae392a!important;
+		text-decoration: underline #ae392a;		
+	}
+	
+	.insyoku_btn {
+		padding: 4px 0;
+		color: #ae392a;
+		font-size: 12px;
+		text-align: center;
+		border-radius: 5px;
+		background: #fff;
+		width: 28%;
+		margin-left: 5px;
+		border: #ae392a solid 2px;
+	}
+	
+	.insyoku_btn a {
+		color: #ae392a!important;
+		display: block;
+	}	
+	.insyoku_btn a:hover {
+		text-decoration: underline #ae392a;		
+	}
+	
+	.headBtn{
+		text-align: center;
+		width: 92%;
+		margin: auto;
+		position: relative;
+	}
+	.headBtn > *{
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	
+
+
+/* =globalNav
+---------------------------------------------------- */
+/* ---------- mainNav */
+#mainNav {
+	border: 2px solid #FF0000;
+	background: #e60012;/* fallback */
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(0.00, #e60012), color-stop(0.65, #e60012), color-stop(1.00, #be0000));/* Safari */
+	background: linear-gradient(to bottom, #e60012 0%, #e60012 65%, #be0000 100%);/* IE10+, W3C, Firefox, Chrome */
+
+	left: 3px;
+}
+
+#mainNav li {
+	padding: 5px;
+	font-size: 13px;
+	border-bottom: 1px dotted #DDD;
+}
+#mainNav li:last-of-type {
+	border-bottom: none;
+}
+
+#mainNav li a {
+	display: block;
+}
+
+/* ----------column toggle */
+.clmToggle {
+	z-index: 600;
+	display: none;
+	width: 140px;
+	padding: 7px 5px;
+	
+	border-radius: 5px;
+	box-shadow: 0 0 3px #333;
+
+	position: absolute;
+	top: 30px;
+}
+
+/* ----------button toggle */
+.btnToggle {
+    width: 117px;
+    padding: 8px 0;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    background: url(../img/arwBtm.png) no-repeat 4px center #ae392a;
+    background-size: 6px auto;
+}
+	
+.langOpen {
+	right: 5px;
+}
+.navOpen {
+	left: 0;
+}
+
+.srchOpen {
+/*	padding: 0 25px 5px 5px;
+	color: #ae392a;
+	text-align: right;
+	border-bottom: 2px solid #CCC;
+	background: url(../img/arwBtm_rd.png) no-repeat 97% center;
+	background-size: 8px auto;*/
+}
+/*.srchToggle {
+	display: table;
+}*/
+
+	.tabaco_setsumei td:nth-child(1) {
+		font-weight: 600;
+	}
+	
+/* =pageHeader
+-------------------------------------------------------------- **/
+.pageHeader {
+	padding: 10px 8px 5px;
+}
+.home .pageHeader {
+	padding: 0;
+}
+
+/* =main
+-------------------------------------------------------------- **/
+
+/* =content
+---------------------------------------------------- */
+.content {
+	margin: 10px 5px;
+	padding: 1px 0 15px;
+}
+
+.content h1 {
+	margin: 20px 0 10px;
+	padding-right: 10px;
+}
+
+.content h1 b {
+}
+.icShop, .icArea, .icGenre,
+.icAccess, .icBudget, .icLang {
+	padding-left: 23px !important;
+	background-size: 23px;
+}
+
+.content h3 {
+	margin-left: 3px;
+	padding: 3px;
+}
+
+/* =contentB
+------------------------------------------ */
+.contentB {
+}
+
+#leadH1 {
+	font-size: 130%;
+}
+
+
+/* --------------
+ home
+-------------- */
+
+/* -------------------- visual */
+#visual {
+	margin-bottom: 15px;
+}
+.home #visual {
+	margin: 0 auto 15px;
+	text-align: center;
+	background-size: contain;
+}
+
+/* -------------------- homeConts */
+.catch {
+	font-style: 95%;
+	letter-spacing: -0.02em;
+	margin-top: 15px;
+	margin-left: 3px;
+}
+
+/* ---------- topNew */
+.ulNew li {
+	padding-right: 10px;
+}
+.ulNew li a {
+	width: 97%;
+	padding: 5px 1% 10px 2%;
+	background-size: auto 8px;
+}
+
+/* ---------- topSearch */
+
+/* ---------- topTrad */
+.ulClm li {
+	width: 44%;
+	margin: 10px 3%;
+}
+
+/* ---------- topAnime */
+.ulAnime li {
+	margin: 0 20px 20px;
+}
+
+/* ---------- topNewRt */
+#topNewRt ul {
+	margin: 5px;
+}
+#topNewRt li a {
+	margin-top: 2px;
+	padding: 6px 5px 6px 10px;
+}
+
+
+/* --------------
+ sub page
+-------------- */
+/* ---------- breadcrumb */
+#breadcrumb {
+	padding: 0 5px;
+}
+
+/* =content
+---------------------------------------------------- */
+/* =contentH
+------------------------------------------ */
+.contentH {
+	padding: 10px;
+}
+
+/* =tradition page
+---------------------------------------------------- */
+/* ---------- foodNav */
+#fdNav li {
+	width: 48%;
+	margin: 0 0.5% 5px;
+}
+#fdNav li a {
+	padding: 5px 0;
+}
+
+ #fdSushi #food1, #fdTempura #food2, #fdSukiyaki #food3, #fdYakitori #food4, #fdOkonomi #food5, #fdSoba #food6 {
+	padding-bottom: 5px;
+	background-size: 10px 5px;
+	background-color: #ff0000;
+
+#leadFood .clmR p {
+	padding: 0 5px 5px;
+}
+
+#mainImg {
+	padding: 10px;
+}
+
+/*  ranking of sushi */
+.clmRank dl {
+	width: 48%;
+	margin: 0 1% 15px;
+}
+
+.clmRank dd mark {
+	width: 25px;
+	height: 25px;
+	background-size: 25px;
+}
+
+/*  variety of sushi */
+.column2 div {
+	margin-bottom: 10px;
+	padding: 1px 10px 10px 10px;
+	background: #EEE;
+}
+
+.column2 div img {
+	margin: 5px auto;
+	padding: 3px;
+	border: 1px solid #CCC;
+	background: #FFF;
+	display: block;
+}
+
+.tblImg {
+	margin-top: 5px;
+	text-align: center;
+}
+.tblImg td {
+	display: block;
+}
+
+/* =anime page
+---------------------------------------------------- */
+/* ---------- animeNav */
+#anmNav li {
+	width: 46%;
+	margin: 0 1%;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+#anmNav #active {
+	background-size: 20px 12px;
+}
+
+#anmNav.new #active {
+	background: none;
+}
+#anmNav.new #active a {
+	background-color: #ad0000;
+}
+
+/* ---------- content */
+#clmAnime {
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.dlFrame dt {
+	padding: 10px;
+	position: relative;
+}
+.balloonL {
+	margin-bottom: 20px;
+}
+.balloonR {
+	margin-top: 20px;
+}
+
+.dlFrame dt i {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+.balloonL i {
+	left: 60px;
+	bottom: -20px;
+	background: url(../img/balloonB.png) no-repeat;
+}
+.balloonR i {
+	top: -20px;
+	right: 60px;
+	background: url(../img/balloonT.png) no-repeat;
+}
+
+.dlFrame dd {
+	text-align: center;
+}
+
+/* =search page
+---------------------------------------------------- */
+/* ------------------------------ index(list) */
+/* ---------- search */
+.tblSrch {
+	border-radius: 0 0 6px 6px;
+}
+.tblSrch th, .tblSrch td {
+	display: block;
+	padding: 5px 10px;
+}
+	.SrchSP_btn {
+	background: url(../img/arwBtm_rd.png) no-repeat 97% center #f8f8f8 !important;
+    background-size: 14px auto!important;
+	}
+	[lang="ar"] .SrchSP_btn {
+	background: url(../img/arwBtm_rd.png) no-repeat 3% center #f8f8f8 !important;
+	}
+	
+	
+	.SrchSP_open {
+	height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+	}
+	
+	.SPopened {
+	transition: 0.8s;
+    height: auto;
+	padding: 5px 10px;
+    opacity: 1;
+	}
+	
+	.tabaco_setsumei td:nth-child(2) {
+	text-indent: -1em;
+	padding-left: 1em;
+	}		
+	
+	.reset_btn,.srchBtn{
+	align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+	padding: 8px 17px; 
+    border-width: 2px;
+    border-style: outset;
+    border-color: #ddd;
+    border-image: initial;
+	font-size: 12.8px!important;
+		font-weight: 600 ;
+	}
+	
+	[lang="ja"] .reset_btn,[lang="zh-TW"] .reset_btn,[lang="zh-CN"] .reset_btn {
+	padding: 10px 15px; 
+	}
+	
+	[lang="ja"] button#searchbtn,[lang="zh-TW"] button#searchbtn,[lang="zh-CN"] button#searchbtn {
+	padding: 10px 28px; 
+	}
+	
+	button#searchbtn {
+		
+	}
+	/* --for IE,Edge-- */
+	
+	@media all and (-ms-high-contrast: none) {
+	
+	button#searchbtn {
+		
+		padding: 9px 50px!important;
+		}
+		
+	}
+	@supports (-ms-ime-align: auto) {
+			button#searchbtn {
+		
+		padding: 11px 50px!important;
+		}
+		[lang="ja"] .reset_btn,[lang="zh-TW"] .reset_btn,[lang="zh-CN"] .reset_btn {
+	padding: 10px 40px!important; 
+	}
+		}
+	/* --for IE,Edge-- */
+	
+/* ---------- content */
+#h1TtlSrch {
+	margin-left: 2%;
+}
+#h1TtlSrch .btnS {
+	margin-top: 0;
+	margin-right: 5px;
+}
+
+.clmShop .content {
+	padding: 10px;
+}
+.clmShop article {
+	padding: 10px 10px 10px 6px;
+}
+
+.clmShop article h1 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+}
+
+.clmShop .tblDtl {
+	width: 100%;
+}
+.clmShop .tblDtl th {
+	width: 60px;
+	padding: 3px;
+	padding-left: 0;
+	font-size: 90%;
+}
+.clmShop .tblDtl td {
+	padding: 3px;
+	line-height: 1.3;
+}
+
+.clmShop .imgShop {
+	/*max-height: 150px;*/
+	overflow: hidden;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* pagenation */
+.pagination {
+}
+
+/* ------------------------------ search */
+.ulSrch {
+	margin: 0 2%;
+	border-top: 3px solid #EEE;
+}
+.ulSrch li a {
+	border: 3px solid #EEE;
+	border-top: none;
+}
+
+/* .widthS li {float: left;width: 46%;} */
+.widthM li {width: 96%;}
+
+/* .ulSrch.widthM img {
+	width: 60px;
+} */
+
+.clmSrch .ulImg li {
+	border: 3px solid #EEE;
+}
+
+/* ------------------------------ detail */
+
+.clmDetail .tblDtl {
+	width: 100%;
+	box-sizing: border-box;
+}
+.clmDetail .tblDtl th {
+	width: 60px;
+	padding: 3px;
+}
+.clmDetail .tblDtl td {
+	padding: 3px;
+	line-height: 1.3;
+	word-break: break-word;
+}
+ 
+.clmDetail .clmDtl_L {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.clmDetail .imgShop {
+	width: 97%;
+}
+
+.clmBtn {
+	margin-top: 15px;
+}
+.clmBtn a {
+	padding: 7px 0;
+}
+
+a.btnMenu,
+a.btnMenu:hover {
+	background-size: 40px auto;
+}
+
+.accessMap #map {
+	width:98%;
+	height:300px;
+	margin: 0 1%;
+}
+
+/* ---------- dtlMenu */
+/* ----- tab */
+.tabLink li {
+	margin: 0 5px 5px;
+}
+.tabLink li a {
+	padding: 6px;
+	font-size: 90%;
+}
+
+/* ----- menu */
+.dtlMenu .clmR {
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/* =map page
+---------------------------------------------------- */
+.cs_row {
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	/* flex-wrap: wrap; */
+
+	-webkit-flex-direction: column;
+	-moz-box-orient: vertical;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+	max-width:100% !important;
+}
+
+/* mapL */
+.mapL {
+	-webkit-order: 1;
+	-moz-box-ordinal-group: 1;
+	-ms-flex-order: 1;
+	order: 1;
+	width: 100%;
+}
+#map_canvas {
+	width: 300px;
+	height: 200px;
+	margin: 20px auto;
+}
+
+/* mapR */
+.mapR {
+	width: 100%;
+	margin: 5px;
+	-webkit-order: 2;
+	-moz-box-ordinal-group: 2;
+	-ms-flex-order: 2;
+	order: 2;
+}
+.mapR li {
+	display: inline-block;
+}
+
+/* mapList */
+#mapList {
+	width: 100%;
+	margin-top: 20px;
+	-webkit-order: 3;
+	-moz-box-ordinal-group: 3;
+	-ms-flex-order: 3;
+	order: 3;
+}
+#mapList li {
+	margin: 2px 5px;
+}
+
+
+/* =privacy page
+---------------------------------------------------- */
+.clmPrivacy .inSp {
+	padding: 0 10px 10px;
+}
+.clmPrivacy h2 {
+	margin-top: 15px;
+	margin-bottom: 3px;
+}
+
+		.clmPrivacy h3 { 
+		border-left:none;
+	}
+	
+	.indent-4 {
+	  padding-left: 2.6em;
+    text-indent: -2.0em;
+	} /* sp */
+	
+	.spIndent_3 {
+		padding-left: 2.0em;
+	}
+
+	.spIndent_2 {
+    padding-left: 1.4em;
+}
+	
+	.indent-15{ 
+		padding-left: 1.5em;
+    text-indent: -1.5em;
+	}
+	
+	
+	/* =cookie-policy page
+---------------------------------------------------- */
+	
+	.cookie_pol td {
+		padding: 8px 14px;
+		border: 1px solid #dcdcdc;
+		word-break: break-word;
+		font-weight: 700;
+		font-size: 0.8em;
+	}
+	
+	.cookie_pol th {
+		padding: 8px 14px;
+		color: inherit;
+		background-color: #eae9e9;
+		border: 1px solid #dcdcdc;
+		text-align: left;
+	}
+	
+	.cookie_pol dl a {
+		text-decoration: underline;
+	}
+	
+	.table_wrap {
+		overflow: auto;
+		white-space: nowrap;
+	}
+	
+	
+	/* pict */
+.tblPict {
+	width: 96%;
+	margin: 5px auto 0;
+	border: 1px solid #BBB;
+	background: #FFF;
+	background: rgba(255,255,255,0.6)
+}
+.tblPict th {
+	width: 60px;
+	padding: 7px;
+	font-size: 13px;
+	font-weight: normal;
+	border-right: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+}
+.tblPict td {
+	padding: 7px 0;
+	font-size: 11px;
+	border-bottom: 1px solid #BBB;
+}
+.tblPict .ulPict {
+	margin: 0;
+}
+.tblPict .ulPict li {
+	width: 23%;
+	margin-left: 1%;
+	margin-right: 0;
+	text-align: center;
+	display: inline-block;
+}
+.tblPict .ulPict li img {
+	width: 35px;
+	height: 35px;
+}
+
+
+	
+/* =footer
+-------------------------------------------------------------- **/
+#footer {
+	padding-top: 10px;
+}
+
+/* =footNav
+---------------------------------------------------- */
+#footNav {
+	margin: 0 1% 20px 10%;
+}
+	
+/*	#footNav li {
+	display: inline-block;
+}*/
+
+/* =aside
+---------------------------------------------------- */
+/* ---------- aside bnr */
+.asideBnr {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.ulBnr li {
+	margin-top: 10px;
+	display: inline-table;
+}
+
+/* =siteFooter
+---------------------------------------------------- */
+#siteFooter {
+	padding: 5px;
+}
+	
+	
+
+/* ---------- copyright */
+#copyright {
+	width: 65%;
+	font-size: 80%;
+	line-height: 1.1;
+}
+
+/* ---------- logoTcvb */
+#logoTcvb {
+	width: 35%;
+	padding-top: 3%;
+}
+
+/* =pageTop
+---------------------------------------------------------------------------------- **/
+#pageTop {
+	right: 5px;
+	bottom: 48px;
+}
+
+#pageTop a {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+}
+	
+/* こだわり検索 */
+	
+	[lang="vn"] .open_btn {
+		word-break: keep-all!important;
+		
+	}
+
+	
+/* cc-messeage */
+	.cc-message { direction: ltr; }
+	
+}/* ------/max-with 640-------------------------------------------------------------- */
+
+
+
+@media screen and (min-width: 641px) { /* pc */
+/* --------------
+ reset
+-------------- */
+h1 {font-size: 21px;font-weight:normal;}
+h2 {font-size: 16px;}
+h3 {font-size: 15px;}
+
+/* --------------
+ base
+-------------- */
+.ifsp {display: none;}
+
+/* --------------
+ common
+-------------- */
+.imgL,
+[lang="ar"] .imgR {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.imgR,
+[lang="ar"] .imgL {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.fll {float: left;}
+.flr {float: right;}
+
+.mt50 {margin-top:50px !important;}
+.mt80 {margin-top:80px !important;}
+
+.wd50 {width: 50%;}
+
+/* ----- decoration (button, etc...) */
+.listS li {
+	width: 22%;
+	margin: 0 1%;
+	margin-bottom: 6px;
+	padding-right: 0.5%;
+}
+.listS li a {
+	padding: 5px 10px;
+}
+
+.ulImg li {
+	width: 32%;
+	/* margin: 5px 0 5px 1%; */
+	padding: 5px 0 5px 1%;
+}
+.ulImg li a {
+	width: 100%;/* IE8 */
+	height: 120px;
+	overflow: hidden;
+	display: inline-block;
+}
+.ulImg li img {
+	width: 150px;
+	margin-top: -15px;
+}
+.ulImg li span {
+	width: 155px;
+	/* height: 150px; */
+	height: 120px;
+	padding: 0 3px 0 5px;
+	font-size: 110%;
+	text-align: left;
+}
+
+.free_box {
+		width: 80%;		
+	}
+	
+/* ----- button */
+/* a tag */
+.btnS {padding: 4px 20px 4px 15px;}
+.btnL {padding: 10px 50px 10px 50px;}
+
+.btnS b, .btnL b {
+	padding-right: 20px;
+}
+.btnL b {letter-spacing:0.05em;}
+
+/* input */
+.btnS[type="submit"], .btnL[type="submit"] {
+	font-size: 100%;
+}
+
+/* ----- base width */
+#siteHeader, #visual {
+	max-width: 1010px;
+	margin: 0 auto;
+	width: 100%;
+}
+#globalNav, .main, #footNav, .in, #breadcrumb {
+	/* width: 980px; */
+	
+	width: 1010px;
+	margin: 0 auto;
+}
+body, #header, #footer {/* fallback */
+	width: 100%;
+	/*min-width: 1010px;*/
+}
+
+/* ---------- width */
+.wd5 {width: 5% !important;}
+.wd10 {width: 10% !important;}
+.wd15 {width: 15% !important;}
+.wd20 {width: 20% !important;}
+.wd25 {width: 25% !important;}
+.wd30 {width: 30% !important;}
+.wd33 {width: 33.33% !important;}
+.wd35 {width: 35% !important;}
+.wd40 {width: 40% !important;}
+.wd45 {width: 45% !important;}
+.wd50 {width: 50% !important;}
+.wd55 {width: 55% !important;}
+.wd60 {width: 60% !important;}
+.wd65 {width: 65% !important;}
+.wd70 {width: 70% !important;}
+.wd75 {width: 75% !important;}
+.wd80 {width: 80% !important;}
+.wd85 {width: 85% !important;}
+.wd90 {width: 90% !important;}
+.wd95 {width: 95% !important;}
+.wd100 {width: 100% !important;}
+
+	/* ---------- width */
+	
+	.clm3 > .fll {
+	width: 32%;
+	margin-right: 1.9% !important;
+}
+.clm3 > .fll:nth-child(3n) {
+	margin-right: 0 !important;
+}
+.clm3 > .fll:nth-child(3n+1) {
+	clear: both;
+}
+	
+/* --------------
+ style
+-------------- */
+
+/* =header
+-------------------------------------------------------------- **/
+#header {
+    position: fixed;
+    border-top: 6px solid #ae392a;
+    margin-top: -6px;
+    z-index: 1000;
+}
+
+/* =siteHeader
+---------------------------------------------------- */
+#siteHeader h1 {
+	margin-top: 13px;
+	margin-bottom: 10px;
+	width: 60%;
+	float: left;	
+}
+
+#siteHeader h1 a {
+	/*max-width: 460px;*/
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	/*padding-left: 140px;*/
+}
+	
+
+	[lang="ja"] #siteHeader h1 ::before {
+		content:'' ;
+		display: inline-block;
+		background: url(../img/logo_jp.png) no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		width: 25%;
+		height: 50px;
+		float: left;
+	}
+	
+	#siteHeader h1 ::before {
+		content:'' ;
+		display: inline-block;
+		background: url(../img/logo.png) no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+		width: 25%;
+		height: 50px;
+		float: left;
+	}
+	
+	#siteHeader h1 img {
+		display: inline-block;
+		float: left;
+		width: 73%;
+	}
+	
+/* ---------- login box */
+	
+#divLang {
+	border: 2px solid #ad0000;
+}
+
+#divLang span {
+	float: left;
+	width: 48%;
+}
+#divLang span:nth-of-type(even) {
+	margin-left: 4%;
+}
+
+#divLang a {
+	padding: 5px 0;
+	font-size: 12px;
+	display: block;
+}
+	
+/* pc用でした
+	#divLang {
+	float: right;
+	width: 390px;
+	margin-top: 5px;
+	padding: 4px 5px;
+	border: 2px solid #ad0000;
+	border-radius: 3px;
+}
+#divLang a {
+	font-size: 11px;
+}
+
+#divLang span {
+	margin: 0 5px;
+}
+*/
+	
+	/* ----------column toggle */
+.clmToggle {
+	z-index: 600;
+	display: none;
+	width: 136px;
+	padding: 7px 5px;
+	
+	border-radius: 5px;
+	box-shadow: 0 0 3px #333;
+
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+	
+	/* ----------button toggle */
+.btnToggle {
+	max-width: 150px;
+	width: 35%;
+	padding: 8px 0;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 5px;
+	background:#ae392a;
+	/*background: url(../img/arwBtm.png) no-repeat 10px center #ae392a;
+	background-size: 6px auto;*/
+	padding-right: 5px;
+}	
+	.headBtn .btnToggle::before {
+		content:'' ;
+		display: inline-block;
+		background: url(../img/arwBtm.png) no-repeat center;
+		background-size: contain;
+		vertical-align: middle;
+		width: 10px;
+		height: 5px;
+	}
+	
+	/* ----------tokusyu */
+	
+	.tokusyu_btn {
+		position: relative;
+		padding: 4px 0;
+		color: #ae392a;
+		font-size: 12px;
+		border-radius: 5px;
+		background: url(../img/arwBtm.png) no-repeat 10px center #fff;
+		width: 33%;
+		margin-left: 5px;
+		border: #ae392a solid 2px;
+		cursor: pointer;
+	}
+	
+	[lang="fr"] .tokusyu_btn { width: 22%; }
+	
+	.tokusyu_btn label { 
+		display: block;
+	}
+	
+	.tokusyu_btn > label { 
+		text-align: center;
+	}
+		
+	.tokusyu_btn ul {
+		margin: 0px;
+		padding: 0px;
+		display: none;
+		position: absolute;
+		color: #ae392a;
+		font-size: 12px;
+		border-radius: 5px;
+		background:#fff;
+		width: 150%;
+		border: #ae392a solid 2px;
+		top: 28px;
+		left: -2px;
+		text-align: start;
+	}
+	
+	[lang="ar"] .tokusyu_btn ul > * {
+		text-align: right!important;
+	}
+	
+	[lang="ar"] header {
+    direction: initial;
+}
+	
+	.tokusyu_btn:hover ul { 
+		display: block;
+	}
+	
+	.tokusyu_btn li {
+		font-size: 12px;
+		margin: 3px;
+	}
+	
+	.tokusyu_btn a:hover {
+		color: #ae392a!important;
+		text-decoration: underline #ae392a;		
+	}
+	
+	.insyoku_btn {
+		padding: 4px 0;
+		color: #ae392a;
+		font-size: 12px;
+		text-align: center;
+		border-radius: 5px;
+		background: #fff;
+		width: 22%;
+		margin-left: 5px;
+		border: #ae392a solid 2px;
+	}
+	
+	[lang="fr"] .insyoku_btn { width: 33%; }
+	
+	.insyoku_btn a {
+		color: #ae392a!important;
+		display: block;
+	}	
+	.insyoku_btn a:hover {
+		text-decoration: underline #ae392a;		
+	}
+	
+	.tokusyu_btn input {
+    display: none;
+}
+	.tokusyu_btn input:checked ~ .tokusyu_btn ul {
+		display: block;
+	}
+
+	.headBtn {
+	 	margin-top:22px;
+		position: relative;
+	}
+	
+	
+/* =globalNav
+---------------------------------------------------- */
+#globalNav {
+	padding: 12px 0 5px;
+}
+
+/* ---------- mainNav */
+#mainNav li {
+	float: left;
+	width: 16%;
+	text-align: center;
+}
+#mainNav li:first-of-type {
+	width: 10%;
+}
+#mainNav li:nth-of-type(4) {
+	width: 26%;
+}
+#mainNav li:last-of-type {
+	width: 32%;
+}
+
+#mainNav li a {
+	font-size: 13px;
+	background: url(../img/lineNav.png) no-repeat right center;
+	display: block;
+}
+#mainNav li:last-of-type a {
+	background: none;
+}
+
+/* =pageHeader
+-------------------------------------------------------------- **/
+.pageHeader {
+	padding: 15px 0;
+	margin-top: 7%;
+}
+
+#pageTtl {
+	font-size: 25px;
+}
+
+/* =main
+-------------------------------------------------------------- **/
+.pgSearch .main {
+}
+
+/* =content
+---------------------------------------------------- */
+.content {
+	margin: 15px 0 20px;
+	padding: 5px 15px 15px;
+}
+
+.content h1 {
+	margin: 20px 0;
+}
+
+.content h1 b {
+}
+.icShop, .icArea, .icGenre,
+.icAccess, .icBudget, .icLang {
+	padding-left: 33px !important;
+}
+
+.content h3 {
+	padding: 2px 0 2px 6px;
+}
+	
+/* =contentB
+------------------------------------------ */
+.contentB {
+	clear: both;
+}
+
+#leadH1 {
+	font-size: 150%;
+}
+
+
+/* --------------
+ home
+-------------- */
+
+/* -------------------- visual */
+#visual {
+	margin-bottom: 20px;
+}
+.home #visual {
+	height: 400px;
+	margin-top: 90px;
+}
+
+/* -------------------- homeConts */
+.catch {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+/* ---------- topNew */
+.ulNew li {
+	float: left;
+	width: 48%;
+	padding-right: 1%;
+}
+.ulNew li:nth-child(odd) {
+	margin-right: 2%;
+}
+
+.ulNew li a {
+	width: 98%;
+	padding: 10px 2% 5px 0;
+	vertical-align: bottom;
+}
+
+.ulNew time {
+	float: left;
+	width: 20%;
+}
+
+.ulNew h2 {
+	float: right;
+	width: 78%;
+}
+
+/* ---------- topSearch */
+
+/* ---------- topTrad */
+.ulClm li {
+	width: 31%;
+	margin: 8px 1%;
+}
+.ulClm li h2 {
+	margin-bottom: 3px;
+}
+
+/* ---------- topAnime */
+/* #topAnime {
+	float: right;
+	width: 650px;
+} */
+
+/* ---------- topNewRt */
+/* #topNewRt {
+	float: left;
+	width: 290px;
+} */
+#topNewRt ul {
+	margin-bottom: 10px;
+}
+#topNewRt li {
+	width: 49%;
+	float: left;
+	margin: 0 0.5%;
+}
+#topNewRt li a {
+	margin-top: 6px;
+	padding: 8px 5px 8px 14px;
+}
+
+/* --------------
+ sub page
+-------------- */
+/* ---------- breadcrumb */
+
+/* =content
+---------------------------------------------------- */
+/* =contentH
+------------------------------------------ */
+.contentH {
+	padding: 10px 20px;
+}
+
+.colLarge {
+	float: left;
+	width: 69%;
+	padding-top: 20px;
+}
+.colSmall {
+	float: right;
+	width: 28%;
+}
+
+/* =tradition page
+---------------------------------------------------- */
+/* ---------- foodNav */
+#fdNav {
+	margin: 0 10px;
+}
+#fdNav li {
+	width: 15.8%;
+	margin: 0 0.1%;
+	padding-bottom: 10px;
+}
+#fdNav li a {
+	padding: 10px 0;
+}
+
+#fdSushi #food1, #fdTempura #food2, #fdSukiyaki #food3, #fdYakitori #food4, #fdOkonomi #food5, #fdSoba #food6 {
+	background: url(../img/arwD.png) no-repeat center bottom;
+}
+
+/* ---------- content */
+#leadFood .clmR {
+	float: right;
+	width: 490px;
+}
+
+#mainImg {
+	float: left;
+	width: 500px;
+}
+
+/*  ranking of sushi */
+.clmRank dl {
+	width: 19%;
+	margin: 10px 0.5% 0;
+}
+
+.clmRank dd mark {
+	width: 30px;
+	height: 30px;
+}
+
+/*  variety of sushi */
+.column2 div {
+	float: left;
+	width: 48%;
+	margin-bottom: 10px;
+}
+.column2 div:nth-child(odd) {
+	margin-right: 4%;
+}
+
+.column2 h2 {
+	float: right;
+	width: 270px;
+}
+.column2 p {
+	float: right;
+	width: 270px;
+}
+.column2 img {
+	float: left;
+	width: 180px;
+	margin-top: -25px;
+}
+
+.tblImg td {
+	width: 19%;
+	padding: 0 0.5%;
+	vertical-align: top;
+}
+
+/* =anime page
+---------------------------------------------------- */
+/* ---------- animeNav */
+#anmNav {
+	margin: 0 50px;
+}
+
+#anmNav li {
+	width: 45%;
+	height: 44px;
+	margin: 0 2%;
+	padding-bottom: 24px;
+}
+
+#anmNav.new li {
+	width: 23%;
+	height: auto;
+	margin: 0 .5%;
+	padding-bottom: 24px;
+	vertical-align: bottom;
+}
+
+/* ---------- content */
+#clmAnime {
+	margin-bottom: 20px;
+	padding: 30px 15px;
+}
+
+.dlFrame dt {
+	float: left;
+	width: 240px;
+	min-height: 60px;
+	margin-top: 15px;
+	padding: 10px;
+	position: relative;
+}
+.balloonL {
+	margin-right: 20px;
+}
+.balloonR {
+	margin-left: 20px;
+}
+
+.dlFrame dt i {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+}
+	
+.balloonL i {
+	right: -20px;
+	background: url(../img/balloonL.png) no-repeat;
+}
+.balloonR i {
+	left: -20px;
+	background: url(../img/balloonR.png) no-repeat;
+}
+
+.dlFrame dd {
+	float: left;
+	width: 386px;
+	margin: 0 10px;
+}
+
+/* =search page
+---------------------------------------------------- */
+/* ------------------------------ index(list) */
+/* ---------- search */
+.tblSrch {
+	border-radius: 6px;
+}
+.tblSrch th {
+	width: 90px;
+	padding: 10px 15px;
+	border-right: 1px solid #EEE;
+	border-bottom: 1px solid #CCC;
+}
+.tblSrch td {
+	padding: 10px;
+}
+	
+	.SrchPC_btn {
+    padding: 0 25px 5px 5px;
+    color: #ae392a;
+    border-bottom: 2px solid #CCC;
+    background: url(../img/arwBtm_rd.png) no-repeat 18% center;
+    background-size: 14px auto;
+	}
+	
+	[lang="ar"].SrchPC_btn {
+		background: url(../img/arwBtm_rd.png) no-repeat 88% center;
+	}
+	
+	.SrchPC_open {
+	height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+	}
+	
+	.PCopened {
+	transition: 0.8s;
+    height: auto;
+	padding: 10px 15px;
+    opacity: 1;
+	}
+	
+	.tabaco_setsumei td:nth-child(1) {
+		font-weight: 600;
+	}
+	
+	.tabaco_setsumei td:nth-child(2) {
+		text-indent: -1em;
+		padding-left: 1em;
+	}
+	
+	.reset_btn,.srchBtn{
+	align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+	padding: 10px 57px 7px 57px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #ddd;
+    border-image: initial;
+	font-size: 12.8px!important;
+	}
+	
+	[lang="ja"] .reset_btn,[lang="zh-TW"] .reset_btn,[lang="zh-CN"] .reset_btn {
+	padding: 12px 39px 11px 39px;
+	}
+	
+	[lang="ja"] button#searchbtn,[lang="zh-TW"] button#searchbtn,[lang="zh-CN"] button#searchbtn {
+	padding: 12px 52px 11px 52px;
+	}
+	
+	button#searchbtn {		
+		padding: 10px 50px 8px 50px;
+		}
+		
+	@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+		
+		button#searchbtn {
+		
+		padding: 11px 50px!important;
+		}
+		
+		.reset_btn {
+			padding:10px 57px 11px 57px!important;
+		}
+		[lang="ja"] .reset_btn,[lang="zh-TW"] .reset_btn,[lang="zh-CN"] .reset_btn {
+	padding: 9px 39px 8px 39px!important;
+	}
+	
+	}
+	
+	@supports (-ms-ime-align: auto) {
+		
+		button#searchbtn {
+			
+		padding: 11px 50px;
+		}
+		.reset_btn {
+			padding:10px 57px 11px 57px!important;
+		}
+		[lang="ja"] .reset_btn,[lang="zh-TW"] .reset_btn,[lang="zh-CN"] .reset_btn {
+	padding: 12px 39px 11px 39px!important;
+	}
+	}/* --for IE,Edge-- */
+
+/* ---------- content */
+#h1TtlSrch .btnS {
+	margin-top: 0;
+}
+
+.clmShop .content {
+	padding: 30px;
+}
+.clmShop article {
+	padding: 15px 20px 10px;
+}
+.clmShop article a:hover {
+	color: #555;
+}
+
+.clmShop .dtlShop {
+	float: right;
+	width: 70%;
+}
+
+.clmShop article h1 {
+	margin-bottom: 15px;
+}
+
+.clmShop .tblDtl th {
+	width: 110px;
+	padding-top: 3px;
+	padding-bottom: 8px;
+}
+.clmShop .tblDtl td {
+	padding-left: 10px;
+}
+
+.clmShop .imgShop {
+	float: left;
+	width: 27%;
+	/*max-height: 200px;*/
+	overflow: hidden;
+}
+.clmShop .imgShop img {
+	max-width: 97% !important;
+}
+.clmShop .imgShop img:hover {
+	cursor: pointer;
+}
+
+/* pagenation */
+.pagination {
+	/* padding-left:40px; */
+}
+
+/* ------------------------------ search */
+.ulSrch li {
+	float: left;
+	margin: 8px 2%;
+}
+.ulSrch li a {
+	border: 5px solid #EEE;
+}
+.ulSrch li a:hover {
+	border: 5px solid #DDD;
+}
+
+.widthS li {width: 29%;}
+.widthM li {width: 46%;}
+
+.clmSrch .ulImg li {
+	width: 22.5%;
+	border: 5px solid #EEE;
+}
+.clmSrch .ulImg li span {
+	width: 155px;
+}
+
+/* ------------------------------ detail */
+.clmDetail h1 {
+}
+
+.clmDetail .tblDtl {
+	float: right;
+	width: 60%;
+}
+
+.clmDetail .tblDtl th {
+	width: 110px;
+	padding: 5px 10px;
+}
+.clmDetail .tblDtl td {
+	padding: 5px 10px;
+}
+
+.clmDetail .clmDtl_L {
+	float: left;
+	width: 36%;
+}
+
+.clmDetail .imgShop {
+	text-align: center;
+}
+
+.clmBtn {
+	margin-top: 25px;
+}
+.clmBtn a {
+	padding: 15px 0 15px 10px;
+}
+
+.accessMap #map {
+	/*width:800px;*/
+	width:550px;
+	height:500px;
+	margin: 0 auto;
+}
+
+/* ---------- dtlMenu */
+/* ----- tab */
+.tabLink li {
+	margin: 0 7px 5px;
+}
+.tabLink li a {
+	padding: 3px 10px;
+}
+
+/* ----- menu */
+.dtlMenu .clmL {
+	float: left;
+	width: 67%;
+}
+
+.dtlMenu .clmR {
+	float: right;
+	width: 30%;
+}
+
+
+/* =map page
+---------------------------------------------------- */
+#clmMap {
+	/* position: relative; */
+}
+
+/* mapL */
+.mapL {
+	float: left;
+	/* width: 820px; */
+	width: 620px;
+}
+#map_canvas {
+	width: 600px;
+	height: 400px;
+	/* margin-top: 6px;
+	margin-left: 200px; */
+}
+
+/* mapR */
+.mapR {
+	float: right;
+	width: 150px;
+}
+.mapR ul {
+	border-top: none;
+}
+.mapR li {
+	border-top: 1px dotted #CCC;
+	display: block;
+}
+
+/* mapList */
+#mapList {
+	float: left;
+	width: 200px;
+	/* position: absolute;
+	top: 30px;
+	left: 0; */
+	
+	height: 400px;
+	overflow-y: scroll;
+}
+
+
+/* =privacy page
+---------------------------------------------------- */
+.clmPrivacy h2 {
+	margin-top: 25px;
+	margin-bottom: 3px;
+}
+	
+	.clmPrivacy h3 { 
+		border-left:none;
+	}
+		
+	.indent-4 {
+    padding-left: 3.6em;
+    text-indent: -3.6em;
+}	
+	
+	.indent-15{ 
+		padding-left: 1.5em;
+    text-indent: -1.5em;
+	}
+
+	/* =cookie-policy page
+---------------------------------------------------- */
+	
+	.cookie_pol td {
+		padding: 8px 14px;
+		border: 1px solid #dcdcdc;
+		word-break: break-word;
+		font-weight: 700;
+}
+	
+	.cookie_pol td:nth-of-type(1) {
+		width: 14%;
+	}
+	.cookie_pol td:nth-of-type(2) {
+		width: 10%;
+	}
+	
+	.cookie_pol td:nth-of-type(3) {
+		width: 35%;
+	}
+	
+	[lang="ja"] .cookie_pol td:nth-of-type(1) {
+		width: 16%;
+	}
+	[lang="ja"] .cookie_pol td:nth-of-type(2) {
+		width: 15%;
+	}
+	
+	[lang="ja"] .cookie_pol td:nth-of-type(3) {
+		width: 35%;
+	}
+	
+	.cookie_pol th {
+		padding: 8px 14px;
+		color: inherit;
+		background-color: #eae9e9;
+		border: 1px solid #dcdcdc;
+		text-align: left;
+	}
+		
+	.cookie_pol dl a {
+		text-decoration: underline;
+	}
+	
+	.cookie_pol dd {
+		margin-bottom: 10px;
+	}
+	
+	/* pict */
+.tblPict {
+	width: 96%;
+	margin: 5px auto 0;
+	border: 1px solid #BBB;
+	background: #FFF;
+	background: rgba(255,255,255,0.6)
+}
+.tblPict th {
+	width: 60px;
+	padding: 7px;
+	font-size: 13px;
+	font-weight: normal;
+	border-right: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+}
+.tblPict td {
+	padding: 7px 0;
+	font-size: 11px;
+	border-bottom: 1px solid #BBB;
+}
+.tblPict .ulPict {
+	margin: 0;
+}
+.tblPict .ulPict li {
+	width: 12.8%;
+	margin-left: 1%;
+	margin-right: 0;
+	text-align: center;
+	display: inline-block;
+}
+.tblPict .ulPict li img {
+	width: 35px;
+	height: 35px;
+}
+
+
+	
+	
+/* =footer
+-------------------------------------------------------------- **/
+#footer {
+	margin-top: 50px;
+	padding-top: 10px;
+}
+
+/* =footNav
+---------------------------------------------------- */
+#footNav {
+	float: left;
+	width: 500px;
+	margin-bottom: 20px;
+}
+#footNav li {
+	float: left;
+	width: 50%;
+}
+
+/* =aside
+---------------------------------------------------- */
+/* ---------- aside bnr */
+/* home */
+.asideBnr {
+	float: right;
+	width: 480px;
+	margin: 10px 0;
+}
+.ulBnr li {
+	float: left;
+	width: 230px;
+	margin-left: 10px;
+}
+
+/* =siteFooter
+---------------------------------------------------- */
+
+/* ---------- copyright */
+
+/* ---------- logoTcvb */
+#logoTcvb {
+	width: 140px;
+}
+
+/* =pageTop
+-------------------------------------------------------------- **/
+#pageTop {
+	right: 30px;
+	bottom: 170px;
+}
+#pageTop a {
+	width: 52px;
+	height: 52px;
+}
+
+	/* cc-messeage */
+	.cc-message { direction: ltr; }
+
+	
+}
+
+@media screen and (min-width : 640px) and (max-width: 940px) {
+.pageHeader {
+    margin-top: 10%;
+}
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){	
+	button#searchbtn {
+		border-color: #bbb;
+		}
+		
+	}
+@supports (-ms-ime-align: auto) {
+button#searchbtn {
+		border-color: #bbb;
+		}
+}
